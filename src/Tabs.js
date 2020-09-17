@@ -15,14 +15,23 @@ const StyledMain = styled(motion.main)`
 const StyledGrid = styled(motion.div)`
   grid-area: "tabs";
   display: grid;
+  background: red;
+`;
+
+const StyledContent = styled(motion.div)`
+  grid-area: "tabcontent";
+  display: flex;
+  flex-direction: column;
+  background: green;
 `;
 
 const Main = (props) => {
   return (
     <StyledMain>
-    
+      <StyledGrid />
+      <StyledContent />
     </StyledMain>
-  )
+  );
 };
 
 export default Main;
