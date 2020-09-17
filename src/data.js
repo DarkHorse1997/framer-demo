@@ -1,9 +1,19 @@
+import image1 from "./images/1.jpg";
+import image2 from "./images/2.jpg";
+import image3 from "./images/3.jpg";
+import image4 from "./images/4.jpg";
+import image5 from "./images/5.jpg";
+import image6 from "./images/6.jpg";
+import image7 from "./images/7.jpg";
+import image8 from "./images/8.jpg";
+import image9 from "./images/9.jpg";
+import image10 from "./images/10.jpg";
 
 const data = [
   {
     id: 1,
     title: "Lorem",
-    // image: image1,
+    image: image1,
     list: [
       {
         id: 1,
@@ -29,7 +39,7 @@ const data = [
   },
   {
     id: 2,
-    // image: image2,
+    image: image2,
     title: "Ipsum",
     list: [
       {
@@ -57,7 +67,7 @@ const data = [
   {
     id: 3,
     title: "Dolor",
-    // image: image3,
+    image: image3,
     list: [
       {
         id: 1,
@@ -85,7 +95,7 @@ const data = [
   {
     id: 4,
     title: "Sit",
-    // image: image4,
+    image: image4,
     list: [
       {
         id: 1,
@@ -112,7 +122,7 @@ const data = [
   {
     id: 5,
     title: "Amet",
-    // image: image5,
+    image: image5,
     list: [
       {
         id: 1,
@@ -139,7 +149,7 @@ const data = [
   {
     id: 6,
     title: "Consectetuer",
-    // image: image6,
+    image: image6,
     list: [
       {
         id: 1,
@@ -167,7 +177,7 @@ const data = [
   {
     id: 7,
     title: "Adipiscing",
-    // image: image7,
+    image: image7,
     list: [
       {
         id: 1,
@@ -194,7 +204,7 @@ const data = [
   {
     id: 8,
     title: "Elit",
-    // image: image8,
+    image: image8,
     list: [
       {
         id: 1,
@@ -221,7 +231,7 @@ const data = [
   {
     id: 9,
     title: "Donec",
-    // image: image9,
+    image: image9,
     list: [
       {
         id: 1,
